@@ -1,2 +1,199 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Women.Careers – Empowering Women's Careers</title>
+  <meta name="description" content="Women.Careers helps women grow their careers through mentorship, resources, and featured opportunities.">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      scroll-behavior: smooth;
+    }
 
+    header {
+      background: #f2e8f5;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #5a2a82;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #5a2a82;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    nav {
+      background: #5a2a82;
+      padding: 12px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #5a2a82;
+      margin-bottom: 20px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fafafa;
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 8px;
+    }
+
+    .testimonial {
+      background: #f7f1fa;
+      border-left: 5px solid #5a2a82;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input,
+    form textarea {
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background: #5a2a82;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Women.Careers</h1>
+    <p>Unlock your potential. Build a meaningful career. Join a network of women breaking barriers and leading change.</p>
+    <a href="#contact" class="cta-button">Get Started</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#opportunities">Opportunities</a>
+    <a href="#stories">Stories</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Women.Careers</h2>
+    <p>
+      Women.Careers is a dedicated platform empowering women with career development tools, mentorship, and access to curated job programs. Whether you're changing careers, returning to the workforce, or climbing the leadership ladder, we’re here to support your journey.
+    </p>
+  </section>
+
+  <section id="opportunities">
+    <h2>Featured Opportunities</h2>
+    <div class="features">
+      <div class="card">
+        <h3>Tech Fellowship</h3>
+        <p>A 12-week virtual program for women starting or switching into tech. Includes mentorship and hands-on projects.</p>
+      </div>
+      <div class="card">
+        <h3>Leadership Bootcamp</h3>
+        <p>A 6-month course designed for women looking to level up in management and executive roles.</p>
+      </div>
+      <div class="card">
+        <h3>Resume & Interview Coaching</h3>
+        <p>One-on-one coaching sessions to prepare you for job applications, interviews, and salary negotiation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="stories">
+    <h2>Success Stories</h2>
+    <div class="testimonial">
+      “Women.Careers gave me the tools, confidence, and mentorship to land a product management role in tech. I'm forever grateful!”<br>
+      <strong>- Aisha M., Product Manager</strong>
+    </div>
+    <div class="testimonial">
+      “Through their accelerator, I gained clarity, courage, and a promotion. Every woman deserves this kind of support.”<br>
+      <strong>- Elena R., Marketing Director</strong>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="How can we help?" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Women.Careers. All rights reserved.
+  </footer>
+
+</body>
+</html>
